@@ -1,0 +1,12 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+# AWS Tutorial told me to add this so that my Lambda assets
+# are discoverable using during the Pipelines section of the tutorial
+!lambda/*.js
